@@ -8,11 +8,11 @@
                 {% csrf_token %}
                 <div class="form-row mb-3">
                     <div class="form-group col-md-10">
-                        <label for="taskInput" class="control-label mb-0" style="font-size:1.1em">Task</label>
+                        <label class="control-label mb-0" style="font-size:1.1em">Task</label>
                         {{ form.task }}
                     </div>
                     <div class="col-md-2 text-center">
-                        <label for="taskCheckbox" class="control-label mb-0" style="font-size:1.1em">Completed</label>
+                        <label class="control-label mb-0" style="font-size:1.1em">Completed</label>
                         {{ form.completed }}
                     </div>
                 </div>
